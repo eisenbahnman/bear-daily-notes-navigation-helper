@@ -1,6 +1,6 @@
 # Bear Daily Notes navigation helper
 
-Navigate between daily notes in [Bear](https://bear.app) with a keyboard shortcut. Jump to the next or previous note titled with a date (`YYYY-MM-DD`).
+Designed to navigate between daily notes in [Bear](https://bear.app) with a keyboard shortcut. Jump to the next or previous note titled with a date (`YYYY-MM-DD`).
 
 ## How it works
 
@@ -45,7 +45,7 @@ If there is no next or previous daily note, a macOS notification is shown.
 
 ## Accessibility permissions
 
-The binary reads Bear's UI via the Accessibility API. The app that launches it (Terminal, Alfred, etc.) needs Accessibility access:
+The binary reads Bear's UI via the Accessibility API to get the current note's title. The app that launches it (Terminal, Alfred, etc.) needs Accessibility access:
 
 **System Settings → Privacy & Security → Accessibility**
 
