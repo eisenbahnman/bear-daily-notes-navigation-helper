@@ -1,6 +1,7 @@
 # Bear Daily Notes navigation helper
 
-Designed to navigate between daily notes in [Bear](https://bear.app) with a keyboard shortcut. Jump to the next or previous note titled with a date (`YYYY-MM-DD`).
+Designed to navigate between daily notes in [Bear](https://bear.app). Jump to the next or previous note titled with a date (`YYYY-MM-DD`).
+Use Alfred, Keyboard Maestro etc. to run shell script and assign a hotkey.
 
 ## How it works
 
